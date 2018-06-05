@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1528056454007.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "485CC34B",
+    "lastKnownWriteTime" : 1528117524,
+    "last_content_update" : 1528117524493,
+    "path" : "~/MBA/geo/trabalho/aula3/Modelos SAR e GWR_final.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "134,6",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
