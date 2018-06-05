@@ -31,7 +31,6 @@ list_all <- list()
 
 print("Esse programa demora um pouco pois o GWR faz muitos calculos, Entao sente e aprecie a vida.")
 
-
 ##### For para todas as variaveis
 for (nome in nomes) {
   print(paste0("comecei a fazer o ", nome))
@@ -41,8 +40,10 @@ for (nome in nomes) {
     #####regressao linear####
     lm.shp <- lm(x ~ y, data = dataframe)
     print(paste0("A RegLin do ", nome," foi feito"))
+    
     ###Saida regressao Linear
     rquad <-  summary(lm.shp)$r.squared
+    
     ###Criando o texto da funcao linear
     funcao <- paste0("y = ",lm.shp$coefficients[1],"x + ",lm.shp$coefficients[2])
     
@@ -56,6 +57,7 @@ for (nome in nomes) {
                   gweight=gwr.Gauss,adapt=bwGauss,hatmatrix=TRUE)
     GWR_SSE <- gwr.ap$results$rss
     print(paste0("O GWR do ", nome," foi feito"))
+    
     ##### R2 do gwr
     r2_GWR <- 1 - (GWR_SSE/SST)
     nome_col <- nome
@@ -70,6 +72,7 @@ for (nome in nomes) {
     sarK.ap <- lagsarlm(x ~ y,data=dataframe , mylistw, method="Matrix")
     SARk_SSE <- sarK.ap$SSE
     print(paste0("O SARK do ", nome," foi feito"))
+    
     #### r2 do sar
     r2_SARk <- 1 - (SARk_SSE/SST)
     
@@ -101,15 +104,15 @@ for (nome in nomes) {
   df_rquadrado_gw
   
   ######################## EXERCICIO EXTRA ###################################################
-  lm.shp <- step(lm(INDICE95 ~ ., data = df_shp1))
-  lm.shp <- lm(INDICE95 ~ AREA + GINI_91 + POP_RUR + POP_URB + POP_FEM + URBLEVEL + 
-                      PIB_PC, data = df_shp1)
+  lm.shp <- step(lm(INDICE95 ~ ., data = df_shp))
+  nomes <- names(lm.shp$model)
   
-  sar.ap <- lagsarlm(INDICE95 ~ AREA + GINI_91 + POP_RUR + POP_URB + POP_FEM + URBLEVEL + 
-                       PIB_PC, data = df_shp1, mylistw)
+  df_extra <- df_shp[,nomes]
+  lm.shp <- lm(INDICE95 ~ ., data = df_extra)
   
-  gwr.ap <- gwr(INDICE95 ~ AREA + GINI_91 + POP_RUR + POP_URB + POP_FEM + URBLEVEL + 
-                  PIB_PC, data = df_shp1,coords=coords,bandwidth=bwGauss,
+  sar.ap <- lagsarlm(INDICE95 ~ ., data = df_extra, mylistw)
+  
+  gwr.ap <- gwr(INDICE95 ~ ., data = df_extra,coords=coords,bandwidth=bwGauss,
                 gweight=gwr.Gauss,adapt=bwGauss,hatmatrix=TRUE)
   
   SAR_SSE <- sar.ap$SSE
