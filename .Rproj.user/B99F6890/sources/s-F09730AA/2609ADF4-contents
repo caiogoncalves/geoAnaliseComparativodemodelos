@@ -27,7 +27,7 @@ nomes <- names(df_shp)
 ####### configurações gerais para gwr e sar########
 colnames(coords) <- c("X","Y")
 SST <- sum((df_shp[,variavel_y] - mean(df_shp[,variavel_y]))^2)
-list_all <- list()
+df_rquadrado_gw <- data.frame()
 
 print("Esse programa demora um pouco pois o GWR faz muitos calculos, Entao sente e aprecie a vida.")
 
@@ -89,7 +89,6 @@ for (nome in nomes) {
     r2_SAR <- 1 - (SAR_SSE/SST)
     r2_SAR
 
-    list_all <- 
     df_rquadrado_gw <- plyr::rbind.fill(df_rquadrado_gw, data.frame(nomes = nome_col
                                         , r2_GWR = r2_GWR,
                                         r2_SARk = r2_SARk, 
