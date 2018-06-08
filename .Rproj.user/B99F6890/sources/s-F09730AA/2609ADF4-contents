@@ -56,6 +56,7 @@ for (nome in nomes) {
     gwr.ap <- gwr(x ~ y,data=dataframe,coords=coords,bandwidth=bwGauss,
                   gweight=gwr.Gauss,adapt=bwGauss,hatmatrix=TRUE)
     GWR_SSE <- gwr.ap$results$rss
+    GWR_AIC <- gwr.ap$results$AICh
     print(paste0("O GWR do ", nome," foi feito"))
     
     ##### R2 do gwr
@@ -71,6 +72,8 @@ for (nome in nomes) {
     print(paste0("Comecei a fazer SARK do ", nome))
     sarK.ap <- lagsarlm(x ~ y,data=dataframe , mylistw, method="Matrix")
     SARk_SSE <- sarK.ap$SSE
+    SARk_AIC <- sarK.ap$AIC_lm.model
+    
     print(paste0("O SARK do ", nome," foi feito"))
     
     #### r2 do sar
@@ -86,13 +89,17 @@ for (nome in nomes) {
     
     # r2 do SAR
     SAR_SSE <- sar.ap$SSE
+    SAR_AIC <- sar.ap$AIC_lm.model
     r2_SAR <- 1 - (SAR_SSE/SST)
     r2_SAR
 
-    df_rquadrado_gw <- plyr::rbind.fill(df_rquadrado_gw, data.frame(nomes = nome_col
-                                        , r2_GWR = r2_GWR,
+    df_rquadrado_gw <- plyr::rbind.fill(df_rquadrado_gw, data.frame(nomes = nome_col,
+                                        r2_GWR = r2_GWR,
+                                        AIC_GWR = GWR_AIC,
                                         r2_SARk = r2_SARk, 
+                                        AIC_SARk = SARk_AIC, 
                                         r2_SAR = r2_SAR, 
+                                        AIC_SAR = SAR_AIC, 
                                         r2_regLin = round(rquad, 4), func = funcao))
     print(paste0("Terminei o ", nome))
     print(paste0("Os varoles abaixos sao os r2 do GWR do ",nome))

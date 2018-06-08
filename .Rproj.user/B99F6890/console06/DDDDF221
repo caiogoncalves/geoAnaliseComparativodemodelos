@@ -175,4 +175,43 @@ Total 12 (delta 6), reused 0 (delta 0)[0K
 $[0K[3G[?25h[0m[0K]0;:/c/Users/Caio Andrade/Documents/MBA/geo/trabalho/trabalho4[?25l
 [0;32mCaio Andrade@JOTA-009 [0;35m [0;33m~/Documents/MBA/geo/trabalho/trabalho4[0;36m (master)[0m[0K
 [?25l$ git clone https://github.com/jotacomcomunicacao/ultrafarma-estudos[0K[?25h[?25l$ git clone https://github.com/jotacomcomunicacao/ultrafarma-paginas[0K[?25h[?25l$ rm -rf ultrafarma-paginas/[0K[?25h[?25l$ git clone https://github.com/jotacomcomunicacao/ultrafarma-paginas[0K[?25h[?25l$ git clone https://github.com/jotacomcomunicacao/ultrafarma-estudos[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
-[0K[?25h
+[0K[?25hwarning: LF will be replaced by CRLF in .Rhistory.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B99F6890/pcs/windowlayoutstate.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/B99F6890/pcs/workbench-pane.pper.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B99F6890/sources/prop/250B77C8.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B99F6890/sources/prop/592D28E9.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B99F6890/sources/s-F09730AA/229D14B.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B99F6890/sources/s-F09730AA/2609ADF4.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B99F6890/sources/s-F09730AA/2609ADF4-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B99F6890/sources/s-F09730AA/485CC34B.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mCaio Andrade@JOTA-009 [0;35m [0;33m~/Documents/MBA/geo/trabalho/trabalho4[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25ht[0K[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git 0[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git -[0K[?25h[9G[8G[?25l$ git -c[0K[?25ho[0K[?25l$ git -c[0K[?25h[?25l$ git -[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25h,[0K[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hA[0Kj[0K[?25lu[0K[20G[?25h[21G[?25l$ git commit -m "Ajus[0K[?25ht[0Ko[0K[25G[24G[?25l$ git commit -m "Ajust[0K[?25he[0K[25G[?25l$ git commit -m "Ajuste d[0K[?25he[0K[28G[?25l$ git commit -m "Ajuste de s[0K[?25hu[0Kj[0K[?25le[0K[31G[?25h[32G[?25l$ git commit -m "Ajuste de sujei[0K[?25ht[0Kr[0Ka[0K[37G[36G[?25l$ git commit -m "Ajuste de sujeitr[0K[?25h[?25l$ git commit -m "Ajuste de sujeit[0K[?25h[?25l$ git commit -m "Ajuste de sujei[0K[?25h[?25l$ git commit -m "Ajuste de suje[0K[?25h[?25l$ git commit -m "Ajuste de suj[0K[?25h[?25l$ git commit -m "Ajuste de su[0K[?25h[?25l$ git commit -m "Ajuste de s[0K[?25h[?25l$ git commit -m "Ajuste de[0K[28G[?25h[?25l$ git commit -m "Ajuste d[0K[27G[?25h[?25l$ git commit -m "Ajuste[0K[26G[?25h[25G[24G[?25l$ git commit -m "Ajust[0K[?25h[?25l$ git commit -m "Ajus[0K[?25h[?25l$ git commit -m "Aju[0K[?25h[?25l$ git commit -m "Aj[0K[?25h[?25l$ git commit -m "A[0K[?25h[?25l$ git commit -m "[0K[?25hr[0Ke[0Kt[0Ki[0Kr[0Ka[0Kd[0Ka[0K[27G[?25l$ git commit -m "retirada d[0K[?25he[0K[30G[?25l$ git commit -m "retirada de s[0K[?25hu[0Kj[0Ke[0Ki[0Kt[0K[?25lo[0K[36G[?25h[37G[?25l$ git commit -m "retirada de sujeit[0K[?25h[?25l$ git commit -m "retirada de sujei[0K[?25hr[0Ka[0K[38G[?25l$ git commit -m "retirada de sujeira n[0K[?25ho[0K[41G[?25l$ git commit -m "retirada de sujeira no c[0K[?25hó[0K[?25l$ git commit -m "retirada de sujeira no c[0K[43G[?25h[42G[?25l$ git commit -m "retirada de sujeira no co[0K[?25hd[0Ki[0Kg[0Ko[0K"[0K[?25l
+[0K[?25h[master 9687074] retirada de sujeira no cÃodigo[0K[?25l
+ 15 files changed, 73 insertions(+), 43 deletions(-)[0K
+ rewrite .Rproj.user/B99F6890/console06/INDEX001 (83%)[0K
+ delete mode 100644 .Rproj.user/B99F6890/sources/s-F09730AA/80FC6D5F-contents[0K
+ create mode 100644 .gitignore[0K
+[0K[?25h[?25l
+[0;32mCaio Andrade@JOTA-009 [0;35m [0;33m~/Documents/MBA/geo/trabalho/trabalho4[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hCounting objects: 22, done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects:  23% (5/21)[0K[1G[?25hCompressing objects: 100% (21/21), done.[0K[?25l
+Writing objects:   9% (2/22)[0K[1G[?25h[?25lWriting objects:   9% (2/22), 984.00 KiB | 383.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 1.19 MiB | 389.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 1.69 MiB | 408.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 2.19 MiB | 418.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 2.44 MiB | 422.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 2.94 MiB | 427.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 3.44 MiB | 457.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 3.94 MiB | 457.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 4.19 MiB | 457.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 4.69 MiB | 454.00 KiB/s[0K[1G[?25h[?25lWriting objects:   9% (2/22), 5.21 MiB | 457.00 KiB/s[0K[1G[?25hWriting objects: 100% (22/22), 5.40 MiB | 437.00 KiB/s, done.[0K[?25l
+Total 22 (delta 12), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (12/12), completed with 12 local objects.[0K[?25l
+[0K[?25hTo https://github.com/caiogoncalves/geoAnaliseComparativodemodelos.git[0K[?25l
+   c72cc8b..9687074  master -> master[0K
+[0K[?25h[?25l
+[0;32mCaio Andrade@JOTA-009 [0;35m [0;33m~/Documents/MBA/geo/trabalho/trabalho4[0;36m (master)[0m[0K
+$[0K[3G[?25h
