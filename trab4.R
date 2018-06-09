@@ -45,7 +45,7 @@ for (nome in nomes) {
     rquad <-  summary(lm.shp)$r.squared
     
     ###Criando o texto da funcao linear
-    funcao <- paste0("y = ",lm.shp$coefficients[1],"x + ",lm.shp$coefficients[2])
+    funcao <- paste0("y = ", lm.shp$coefficients[2],"x + ",lm.shp$coefficients[1])
     
     ####definicao do gauss
     print(paste0("Comecei a fazer GWR do ", nome))
